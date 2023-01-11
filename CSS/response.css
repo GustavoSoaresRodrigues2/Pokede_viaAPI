@@ -1,0 +1,32 @@
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    .listPoke {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .listPoke {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .listPoke {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .listPoke {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}

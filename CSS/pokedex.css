@@ -1,0 +1,92 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.listPoke {
+    /* Remover od Numero da Lista */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    /* Colocar em Colunas */
+    display: grid;
+    grid-template-columns: 1fr;
+
+    justify-items: center;
+}
+
+.oPokemon {
+
+    /* Configurando cada Item da Lista */
+    margin: 0.5rem;
+    padding: 10px 10px;
+    background-color: #49D8BA;
+    color: white;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 200px;
+    width: 200px;
+
+}
+
+.oPokemon .numberPoke {
+    color: black;
+    opacity: .3;
+    text-align: right;
+}
+
+.oPokemon .detailPoke {
+    /*
+    display: flex;
+    flex-direction: row;
+    */
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oPokemon .detailPoke .typePoke {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.oPokemon .detailPoke .typePoke .slotsTypes {
+    background-color: #61E1CA;
+    color: white;
+    padding: 0.25rem .5rem;
+    margin: .25rem 3px;
+    font-size: 0.625rem;
+    border-radius: 1rem;
+}
+
+.oPokemon .detailPoke img {
+    margin-left: 29px;
+
+    width: 200px;
+    margin-top: -30px;
+}
+
+.oPokemon .nomePoke {
+    color: white;
+    margin: .25rem 0;
+    margin-bottom: 0;
+}
